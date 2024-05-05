@@ -16,8 +16,8 @@ hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 lower_blue = np.array([135, 68, 32])
 upper_blue = np.array([255, 178, 127])
 
-lower_yellow = np.array([42, 132, 129])
-upper_yellow = np.array([187, 226, 231])
+lower_yellow = np.array([110, 167, 176])
+upper_yellow = np.array([182, 224, 229])
 
 # Criando máscaras para as cores azul e amarelo
 mask1 = cv2.inRange(frame, lower_blue, upper_blue)
